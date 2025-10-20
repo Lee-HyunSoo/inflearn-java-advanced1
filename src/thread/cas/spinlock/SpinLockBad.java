@@ -3,6 +3,7 @@ package thread.cas.spinlock;
 import static util.MyLogger.log;
 import static util.ThreadUtils.sleep;
 
+// spin lock : 스레드를 대기시키지 않으면서 락을 만드는 것
 public class SpinLockBad {
 
     private volatile boolean lock = false;
